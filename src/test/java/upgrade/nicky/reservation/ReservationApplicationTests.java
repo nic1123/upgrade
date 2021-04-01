@@ -41,7 +41,6 @@ public class ReservationApplicationTests {
 	}
 
 	@Test
-	@Transactional
 	public void testConcurrentRequests() throws InterruptedException, ExecutionException {
 
 		TestRestTemplate restTemplate = new TestRestTemplate();
